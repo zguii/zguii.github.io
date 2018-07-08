@@ -5,24 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="keywords" content="赵小贵，zguii，博客，设计师，UI设计师">
+    <meta name="description" content="赵小贵的小窝">
+    <title>Zguii</title>
+    <link rel="shortcut icon" href="https://zguii.com/blog/img/favicon.ico">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <style>
         .wper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
             max-width: 400px;
-            max-height: 100vh;
-            margin: 0 auto;
+            max-height: 730px;
+            margin: auto;
             text-align: center;
-            font-family: PingFangSC-Regular, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: "PingFangSC-Light", "Microsoft yahei", Arial, Helvetica, sans-serif;
+            font-weight: 200;
             color: #9b9b9b;
             font-size: 14px;
             line-height: 20px;
         }
         
         .hd-circle {
-            margin: 55px auto;
+            margin: 0 auto 55px;
             width: 350px;
             height: 350px;
             border-radius: 50%;
@@ -35,7 +44,7 @@
             margin: 16px;
             border-radius: 50%;
             overflow: hidden;
-            background: #cacaca;
+            background: #cfdee0;
         }
         
         .hd-pic>img {
@@ -80,20 +89,39 @@
             border-radius: 50%;
             border: 1px solid #9b9b9b;
             text-align: center;
-        }
-        
-        .sm-circle>img {
-            width: 100%;
-            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
         }
         
         .list-item li a:hover .sm-circle {
             border-color: #4A90E2;
         }
         
+        .list-01 .sm-circle {
+            background-image: url(https://zguii.com/blog/img/ball.svg);
+        }
+        
+        .list-02 .sm-circle {
+            background-image: url(https://zguii.com/blog/img/myshape.svg);
+        }
+        
+        .list-03 .sm-circle {
+            background-image: url(https://zguii.com/blog/img/eye.svg);
+        }
+        
+        .list-04 .sm-circle {
+            background-image: url(https://zguii.com/blog/img/glyph.svg);
+            background-position: center 2px;
+        }
+        
+        .list-item-one .sm-circle {
+            background-image: url(https://zguii.com/blog/img/email.svg);
+        }
+        
         @media (max-width: 414px) {
             .wper {
                 max-width: 300px;
+                max-height: 600px;
             }
             .hd-circle {
                 margin-bottom: 22px;
@@ -115,6 +143,10 @@
             .sm-circle {
                 width: 30px;
                 height: 30px;
+                background-size: 60%;
+            }
+            .list-04 .sm-circle {
+                background-size: 98%;
             }
         }
     </style>
@@ -122,66 +154,51 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="wper">
-                    <div class="hd-circle">
-                        <div class="hd-pic">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <a href="blog"></a>
-                    <h3 class="hd">ZGui可能去喂猫了<br>马上回来</h3>
-                    <div class="info">
-                        请随时查看我在这些地方的网站，包括我的作品，经验等的图片
-                    </div>
-                    <ul class="list-item clearfix">
-                        <li>
-                            <a href="" target="_blank">
-                                <span class="sm-circle">
-                                    <img src="" alt="">
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank">
-                                <span class="sm-circle">
-                                    <img src="" alt="">
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank">
-                                <span class="sm-circle">
-                                    <img src="" alt="">
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" target="_blank">
-                                <span class="sm-circle">
-                                    <img src="" alt="">
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="info">
-                        或则 E-mail 呼我
-                    </div>
-                    <ul class="list-item list-item-one">
-                        <li>
-                            <a href="" target="_blank">
-                                <span class="sm-circle">
-                                    <img src="" alt="">
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+
+    <div class="wper">
+        <div class="hd-circle">
+            <div class="hd-pic">
+                <img src="https://zguii.com/blog/img/cat.svg" alt="">
             </div>
         </div>
+        <h3 class="hd">ZGui可能去喂猫了<br>马上回来</h3>
+        <div class="info">
+            请随时查看我在这些地方的网站，包括我的作品，经验等的图片
+        </div>
+        <ul class="list-item clearfix">
+            <li class="list-01">
+                <a href="https://dribbble.com/zguii" target="_blank">
+                    <span class="sm-circle"></span>
+                </a>
+            </li>
+            <li class="list-02">
+                <a href="https://www.behance.net/zguii" target="_blank">
+                    <span class="sm-circle"></span>
+                </a>
+            </li>
+            <li class="list-03">
+                <a href="http://shijue.me/community/user-details/31cf5884747ec99b08ff032e4ba7e3829_d" target="_blank">
+                    <span class="sm-circle"></span>
+                </a>
+            </li>
+            <li class="list-04">
+                <a href="https://www.instagram.com/xiaozao_zhao/" target="_blank">
+                    <span class="sm-circle"></span>
+                </a>
+            </li>
+        </ul>
+        <div class="info">
+            或则 E-mail 呼我
+        </div>
+        <ul class="list-item list-item-one">
+            <li>
+                <a href="mailto:zoezhaode@yeah.net">
+                    <span class="sm-circle"></span>
+                </a>
+            </li>
+        </ul>
     </div>
+
 </body>
 
 </html>
