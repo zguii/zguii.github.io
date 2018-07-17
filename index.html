@@ -2,203 +2,279 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="赵小贵，zguii，博客，设计师，UI设计师">
-    <meta name="description" content="赵小贵的小窝">
-    <title>Zguii</title>
-    <link rel="shortcut icon" href="https://zguii.com/blog/img/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <style>
-        .wper {
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            max-width: 400px;
-            max-height: 730px;
-            margin: auto;
-            text-align: center;
-            font-family: "PingFangSC-Light", "Microsoft yahei", Arial, Helvetica, sans-serif;
-            font-weight: 200;
-            color: #9b9b9b;
-            font-size: 14px;
-            line-height: 20px;
-        }
-        
-        .hd-circle {
-            margin: 0 auto 55px;
-            width: 350px;
-            height: 350px;
-            border-radius: 50%;
-            border: 1px solid #9B9B9B;
-        }
-        
-        .hd-pic {
-            width: 318px;
-            height: 318px;
-            margin: 16px;
-            border-radius: 50%;
-            overflow: hidden;
-            background: #cfdee0;
-        }
-        
-        .hd-pic>img {
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-        }
-        
-        .hd {
-            font-size: 22px;
-            color: #4e4e4e;
-            line-height: 30px;
-        }
-        
-        .info {
-            margin-top: 35px;
-            margin-bottom: 16px;
-        }
-        
-        .list-item {
-            width: 78%;
-            margin: 0 auto;
-            list-style: none;
-            padding: 0;
-        }
-        
-        .list-item li {
-            width: 25%;
-            float: left;
-            text-align: center;
-        }
-        
-        .list-item-one li {
-            width: 100%;
-            float: none;
-        }
-        
-        .sm-circle {
-            display: inline-block;
-            width: 42px;
-            height: 42px;
-            border-radius: 50%;
-            border: 1px solid #9b9b9b;
-            text-align: center;
-            background-repeat: no-repeat;
-            background-position: center center;
-        }
-        
-        .list-item li a:hover .sm-circle {
-            border-color: #4A90E2;
-        }
-        
-        .list-01 .sm-circle {
-            background-image: url(https://zguii.com/blog/img/ball.svg);
-        }
-        
-        .list-02 .sm-circle {
-            background-image: url(https://zguii.com/blog/img/myshape.svg);
-        }
-        
-        .list-03 .sm-circle {
-            background-image: url(https://zguii.com/blog/img/eye.svg);
-        }
-        
-        .list-04 .sm-circle {
-            background-image: url(https://zguii.com/blog/img/glyph.svg);
-            background-position: center 2px;
-        }
-        
-        .list-item-one .sm-circle {
-            background-image: url(https://zguii.com/blog/img/email.svg);
-        }
-        
-        @media (max-width: 414px) {
-            .wper {
-                max-width: 300px;
-                max-height: 600px;
-            }
-            .hd-circle {
-                margin-bottom: 22px;
-                width: 260px;
-                height: 260px;
-            }
-            .hd-pic {
-                width: 236px;
-                height: 236px;
-                margin: 12px;
-            }
-            .info {
-                margin-top: 22px;
-                margin-bottom: 12px;
-            }
-            .list-item {
-                width: 95%;
-            }
-            .sm-circle {
-                width: 30px;
-                height: 30px;
-                background-size: 60%;
-            }
-            .list-04 .sm-circle {
-                background-size: 98%;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="赵小贵，zguii，博客，设计师，UI设计师">
+  <meta name="description" content="赵小贵的小窝,赵小贵，zguii，博客，设计师，UI设计师">
+  <title>Zguii</title>
+  <link rel="shortcut icon" href="https://zguii.com/blog/img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <style>
+    .wper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      max-width: 420px;
+      max-height: 770px;
+      margin: auto;
+      text-align: center;
+      font-family: "PingFangSC-Light", "Microsoft yahei", Arial, Helvetica, sans-serif;
+      font-weight: 200;
+      color: #9b9b9b;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    
+    .hd-circle {
+      margin: 0 auto 55px;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      border: 1px solid #9B9B9B;
+    }
+    
+    .hd-pic {
+      width: 388px;
+      height: 388px;
+      margin: 16px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: #cfdee0;
+    }
+    
+    .hd-pic>img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    
+    .hd {
+      font-size: 22px;
+      color: #4e4e4e;
+      line-height: 30px;
+    }
+    
+    .info {
+      margin-top: 35px;
+      margin-bottom: 16px;
+    }
+    
+    .list-item {
+      width: 90%;
+      margin: 0 auto;
+      list-style: none;
+      padding: 0;
+    }
+    
+    .list-item li {
+      width: 20%;
+      float: left;
+      text-align: center;
+    }
+    
+    .list-item-one li {
+      width: 100%;
+      float: none;
+    }
+    
+    .sm-circle {
+      display: inline-block;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 1px solid #9b9b9b;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    
+    .list-item li a:hover .sm-circle {
+      border-color: #4A90E2;
+    }
+    
+    .list-01 .sm-circle {
+      background-image: url(https://zguii.com/blog/img/ball.svg);
+    }
+    
+    .list-02 .sm-circle {
+      background-image: url(https://zguii.com/blog/img/myshape.svg);
+    }
+    
+    .list-03 .sm-circle {
+      background-image: url(https://zguii.com/blog/img/eye.svg);
+    }
+    
+    .list-04 .sm-circle {
+      background-image: url(https://zguii.com/blog/img/glyph.svg);
+      background-position: center 2px;
+    }
+    
+    .list-item-one .sm-circle {
+      background-image: url(https://zguii.com/blog/img/email.svg);
+    }
+    
+    @media (max-width: 1040px) and (orientation: landscape),
+    (max-width: 414px) {
+      .wper {
+        max-width: 300px;
+        max-height: 535px;
+      }
+      .hd-circle {
+        margin-bottom: 22px;
+        width: 260px;
+        height: 260px;
+      }
+      .hd-pic {
+        width: 236px;
+        height: 236px;
+        margin: 12px;
+      }
+      .info {
+        margin-top: 22px;
+        margin-bottom: 12px;
+      }
+      .list-item {
+        width: 95%;
+      }
+      .sm-circle {
+        width: 30px;
+        height: 30px;
+        background-size: 60%;
+      }
+      .list-04 .sm-circle {
+        background-size: 98%;
+      }
+    }
+    
+    @media (max-width: 1023px) and (orientation: landscape) {
+      .wper {
+        padding: 80px 15px;
+        position: static;
+        max-height: max-content;
+      }
+    }
+    
+    @media (max-width: 375px) {
+      .wper {
+        max-height: 480px;
+      }
+      .hd-circle {
+        width: 220px;
+        height: 220px;
+      }
+      .hd-pic {
+        width: 194px;
+        height: 194px;
+      }
+      .hd {
+        font-size: 18px;
+      }
+      .info {
+        margin-top: 15px;
+        font-size: 13px;
+      }
+    }
+    
+    @media (max-width: 320px) {
+      .wper {
+        min-width: 320px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  </style>
 
 </head>
 
 <body>
+  <!--[if IE]>
+		<style>
+		 .wper.ie-wper {
+			 left: 50%;
+			 top: 50%;
+			 margin-left: -210px;
+			 margin-top: -385px;
+		 }
+		</style>
+	<![endif]-->
 
-    <div class="wper">
-        <div class="hd-circle">
-            <div class="hd-pic">
-                <img src="https://zguii.com/blog/img/cat.svg" alt="">
-            </div>
-        </div>
-        <h3 class="hd">ZGui可能去喂猫了<br>马上回来</h3>
-        <div class="info">
-            请随时查看我在这些地方的网站，包括我的作品，经验等的图片
-        </div>
-        <ul class="list-item clearfix">
-            <li class="list-01">
-                <a href="https://dribbble.com/zguii" target="_blank">
-                    <span class="sm-circle"></span>
-                </a>
-            </li>
-            <li class="list-02">
-                <a href="https://www.behance.net/zguii" target="_blank">
-                    <span class="sm-circle"></span>
-                </a>
-            </li>
-            <li class="list-03">
-                <a href="http://shijue.me/community/user-details/31cf5884747ec99b08ff032e4ba7e3829_d" target="_blank">
-                    <span class="sm-circle"></span>
-                </a>
-            </li>
-            <li class="list-04">
-                <a href="https://www.instagram.com/xiaozao_zhao/" target="_blank">
-                    <span class="sm-circle"></span>
-                </a>
-            </li>
-        </ul>
-        <div class="info">
-            或则 E-mail 呼我
-        </div>
-        <ul class="list-item list-item-one">
-            <li>
-                <a href="mailto:zoezhaode@yeah.net">
-                    <span class="sm-circle"></span>
-                </a>
-            </li>
-        </ul>
+  <div class="wper" id="wper">
+    <div class="hd-circle">
+      <div class="hd-pic">
+        <img src="https://zguii.com/blog/img/cat.svg" alt="cat">
+      </div>
     </div>
+    <h3 class="hd">ZGui可能去喂猫了<br>马上回来</h3>
+    <div class="info">
+      请随时查看我在这些地方的网站，包括我的作品，经验等的图片
+    </div>
+    <ul class="list-item clearfix">
+      <li class="list-01">
+        <a href="https://dribbble.com/zguii" target="_blank" title="Bribbble">
+          <span class="sm-circle"></span>
+        </a>
+      </li>
+      <li class="list-02">
+        <a href="https://www.behance.net/zguii" target="_blank" title="Behance">
+          <span class="sm-circle"></span>
+        </a>
+      </li>
+      <li class="list-03">
+        <a href="http://shijue.me/community/user-details/31cf5884747ec99b08ff032e4ba7e3829_d" target="_blank" title="视觉中国">
+          <span class="sm-circle"></span>
+        </a>
+      </li>
+      <li class="list-04">
+        <a href="https://www.instagram.com/xiaozao_zhao/" target="_blank" title="Instagram">
+          <span class="sm-circle"></span>
+        </a>
+      </li>
+      <li class="list-05">
+        <a href="https://zguii.com/blog/" target="_blank" title="Zguii'blog">
+          <span class="sm-circle"></span>
+        </a>
+      </li>
+    </ul>
+    <div class="info">
+      或则 E-mail 呼我
+    </div>
+    <ul class="list-item list-item-one">
+      <li>
+        <a href="mailto:zoezhaode@yeah.net" title="zoezhaode@yeah.net">
+          <span class="sm-circle"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
 
+
+  <script>
+    var isIE = isIEFunc();
+    if (isIE) {
+      ieWper();
+    }
+
+    function ieWper() {
+      var wper = document.getElementById('wper');
+      wper.style.left = '50%';
+      wper.style.top = '50%';
+      wper.style.marginLeft = '-210px';
+      wper.style.marginTop = '-385px';
+    }
+
+    function isIEFunc() { //ie?
+      if (!!window.ActiveXObject || "ActiveXObject" in window) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  </script>
 </body>
 
 </html>
