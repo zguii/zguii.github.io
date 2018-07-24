@@ -135,6 +135,7 @@
         height: 30px;
         background-size: 60%;
     }
+    .list-03 .sm-circle,
     .list-04 .sm-circle {
         background-size: 98%;
     }
@@ -143,11 +144,13 @@
     }
 }
 
-@media (max-width: 1023px) and (orientation: landscape) {
+@media (max-width: 1023px) and (orientation: landscape),
+(max-height: 650px) {
     .wper {
-        padding: 80px 15px;
-        position: static;
-        max-height: max-content;
+        padding: 50px 15px;
+    }
+    .list-item-one {
+        padding-bottom: 50px;
     }
 }
 
